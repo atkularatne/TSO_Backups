@@ -1,0 +1,66 @@
+﻿<html><head>
+    
+    <script src="Jscript/Util/jquery_1.9.1.min.js"></script>
+    <script src="Jscript/Util/SDK.JQuery.js"></script>
+    <script src="Jscript/Util/jquery.dataTables.min.js"></script>
+    <script src="Jscript/Util/dataTables.jqueryui.js"></script>
+    <script src="Jscript/Util/jquery_ui.js"></script>
+
+   
+    <link href="CSS/Base/dataTables.jqueryui.css" rel="stylesheet">
+    <link href="CSS/Base/jquery_ui.css" rel="stylesheet">
+   
+    <link href="HomeStyleSheet.css" rel="stylesheet">
+    <script src="Jscript/Assets_js/LoadCustomerData.js"></script>
+
+    <script src="../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <title></title>
+
+<meta></head>
+<body style="white-space: normal; word-wrap: break-word;">
+    <h1>Beneficiary Search Criteria</h1>
+    <div class="errormsg" style="color:red"></div>
+    <table>
+        <tbody>
+            <tr>
+                <td>Beneficiary Number:</td>
+                <td> <input name="Beneficiary" class="clsBeneficiary" type="text"></td>
+            </tr>
+            <tr>
+                <td>Pension Number:</td>
+                <td> <input name="PensionNumber" class="clsPensionNumber" type="text"></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input name="FirstName" class="clsFirstName" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Surname:</td>
+
+
+                <td>   <input name="Surname" class="clsSurname" type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <input name="DOB" class="DateofBirth" type="text">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="label-wrapper">
+        <button type="button" class="button SearchCustomer">Search</button>
+    </div><br>
+
+    <h2>List of beneficiaries</h2>
+    <table id="example" class="display" cellspacing="0" width="100%"></table>
+
+
+
+
+
+
+</body></html>
